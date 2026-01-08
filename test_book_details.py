@@ -7,10 +7,10 @@ def test_book_details():
     year_of_pub = 2016
 
     expected = (
-        "Book ID : 101\n"
-        "Book Name : The Alchemist\n"
-        "Author Name : Paulo Coelho\n"
-        "Year of Publication : 2016\n"
+        "Book ID : 102\n"
+        "Book Name : Ikigai\n"
+        "Author Name : XYZ\n"
+        "Year of Publication : 2019\n"
     )
 
     assert book_details(book_id, book_title, author_name, year_of_pub) == expected
